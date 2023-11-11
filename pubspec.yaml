@@ -1,0 +1,51 @@
+name: anointed_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Overpass
+      fonts: 
+        - asset: assets/fonts/OverpassRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
+    - family: Mulish
+      fonts: 
+        - asset: assets/fonts/MulishRomanRegular.ttf
+          weight: 400
+    - family: Outfit
+      fonts: 
+        - asset: assets/fonts/OutfitBold.ttf
+          weight: 700
+        - asset: assets/fonts/OutfitSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OutfitMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OutfitRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
